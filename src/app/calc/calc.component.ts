@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CalcComponent {
   ngOnInit(){
-    console.log("calculator works")
+    // console.log("calculator works")
   }
 }

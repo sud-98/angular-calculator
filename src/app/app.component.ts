@@ -9,6 +9,6 @@ export class AppComponent {
   constructor(){}
 
   ngOnInit(){
-    console.log("calculator haha")
+    // console.log("calculator haha")
   }
 }
