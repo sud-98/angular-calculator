@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalcComponent } from './calc/calc.component';
 import {CardModule} from 'primeng/card';
+import {InputTextModule} from 'primeng/inputtext';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import {CardModule} from 'primeng/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CardModule
+    CardModule,
+    InputTextModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-.main-card{
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    width: 65%;
+    background: whitesmoke;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
     padding-left: 15%;
     padding-right: 15%;
+    background: black;
+  }
+
+.header{
+    font-size: 42px;
+    font-family: math;
+}
+
+input{
+    width: 100%;
+    background: content-box;
+}
+
+.text-input{
+    color: black;
+    background: white;
+    text-align: end;
+    font-size: 32px;
+}
+
+.btn {
+    width: 100%;
+    color: white;
 }

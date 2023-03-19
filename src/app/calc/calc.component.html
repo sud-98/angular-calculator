@@ -1,8 +1,86 @@
-
-
-<div class="container">
-    <div class="main-card">
-        Calculator
+<div class="card">
+    <div class="container">
+        <div class="fw-bold header row mb-3">Cal-C</div>
+        <!-- display block -->
+        <div class="row mb-3">
+            <input type="text" class="text-input" [formControl]="inputDisplay">
+        </div>
+        <div class="btn-container mb-3">
+            <!-- 1st row -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-dark" onclick="btnClick()">C</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">%</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">&lt;</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">/</button>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">7</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">8</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">9</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">X</button>
+                </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">4</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">5</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">6</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">-</button>
+                </div>
+            </div>
+            <!-- 4th row -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">1</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">2</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">3</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">+</button>
+                </div>
+            </div>
+            <!-- 5th row -->
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">00</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">0</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">.</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">=</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
 </div>

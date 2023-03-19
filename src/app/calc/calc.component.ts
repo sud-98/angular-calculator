@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-calc',
@@ -6,7 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./calc.component.css']
 })
 export class CalcComponent {
+
+  inputDisplay = new FormControl();
+
   ngOnInit(){
-    // console.log("calculator works")
+    
   }
+  btnClick(){}
 }
