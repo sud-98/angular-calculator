@@ -8,77 +8,77 @@
         <div class="btn-container mb-3">
             <!-- 1st row -->
             <div class="row">
-                <div class="col-3">
-                    <button type="button" class="btn btn-outline-dark" onclick="btnClick()">C</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="clearAll()">C</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">%</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('%')">%</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">&lt;</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="del()">&lt;</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">/</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('/')">&divide;</button>
                 </div>
             </div>
             <!-- 2nd row -->
             <div class="row">
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">7</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">7</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">8</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">8</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">9</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">9</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">X</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('X')">&times;</button>
                 </div>
             </div>
             <!-- 3rd row -->
             <div class="row">
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">4</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">4</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">5</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">5</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">6</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">6</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">-</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('-')">-</button>
                 </div>
             </div>
             <!-- 4th row -->
             <div class="row">
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">1</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">1</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">2</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">2</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">3</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">3</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">+</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('+')">+</button>
                 </div>
             </div>
             <!-- 5th row -->
             <div class="row">
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">00</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">00</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">0</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="numClick()">0</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">.</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('.')">.</button>
                 </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn btn-outline-dark" onclick="btnClick()">=</button>
+                <div class="col-3 px-0">
+                    <button type="button" class="btn btn-outline-dark" (click)="operatorClick('=')">=</button>
                 </div>
             </div>
         </div>

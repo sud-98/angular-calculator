@@ -24,6 +24,7 @@
 .header{
     font-size: 42px;
     font-family: math;
+    color: antiquewhite;
 }
 
 input{
@@ -41,4 +42,6 @@ input{
 .btn {
     width: 100%;
     color: white;
+    border: none;
+    font-size: x-large;
 }

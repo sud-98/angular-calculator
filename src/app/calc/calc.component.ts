@@ -11,7 +11,23 @@ export class CalcComponent {
   inputDisplay = new FormControl();
 
   ngOnInit(){
-    
+    this.inputDisplay.setValue("");
   }
-  btnClick(){}
+
+  clearAll(){
+    this.inputDisplay.setValue("");
+  }
+
+  operatorClick(operator : string){
+    switch (operator){
+      case '=':
+        console.log(this.inputDisplay.value);
+    }
+  }
+
+  numClick(){}
+
+  del(){}
+
+  
 }
