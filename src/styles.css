@@ -45,3 +45,7 @@ input{
     border: none;
     font-size: x-large;
 }
+
+body{
+    background-image: url("assets/bg-img-1.avif");
+}
